@@ -5,7 +5,7 @@
 * ![](https://img.shields.io/badge/%D0%A1%D1%82%D0%B0%D1%82%D1%83%D1%81-%D0%9D%D0%B5%20%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BB%D0%B0%D1%81%D1%8C-orange) – задача решена и успешно работает с примерами из условия задачи, но тесты Яндекс.Контеста недоступны для прогона
 * ![](https://img.shields.io/badge/%D0%A1%D1%82%D0%B0%D1%82%D1%83%D1%81-%D0%9D%D0%B5%20%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B0-red) – задача не решена совсем
 
-Статус можно увидеть рядом с названием задачи. Каждой решенной задаче соответствует файл, который указан под заголовком **"Решение"**
+Статус можно увидеть рядом с названием задачи. Каждой решенной задаче соответствует файл, который указан после статуса в содержании или под заголовком **"Решение"** после условия задачи.
 
 **Содержание**
 + [Весна 2019 Квалификация](#spring2019start)
@@ -146,7 +146,7 @@ module.exports = function (startCountry, getNeightbors) {
 Вердикт RE также означает, что отправленное решение неверно.
 #### Формат ввода
 
-![](https://pandao.github.io/editor.md/examples/images/8.jpg)
+![](https://raw.githubusercontent.com/christofer1501/yandex_algorithm/master/img/color_map.png)
 
 Начальная точка A (**code: ’A’, color: ’red’**).
 
@@ -238,12 +238,12 @@ const maxLength = 3;
 
 Дизайнер обновил логотип [Конструктора карт](https://yandex.ru/map-constructor/) (масштаб x5):
 
-![](https://pandao.github.io/editor.md/examples/images/8.jpg)
+![](https://raw.githubusercontent.com/christofer1501/yandex_algorithm/master/img/map_logo.png)
 
 Его потребуется использовать в самых разных условиях. Чтобы это было максимально удобно, сверстайте его с помощью одного HTML-элемента на чистом CSS.
 Использовать картинки (даже через data:uri) нельзя.
 #### Примечания
-![](https://pandao.github.io/editor.md/examples/images/8.jpg)
+![](https://raw.githubusercontent.com/christofer1501/yandex_algorithm/master/img/map_logo_sizes.png)
 
 Цвет фона: #fc0
 
@@ -285,11 +285,12 @@ const maxLength = 3;
 Ограничение памяти  | 256Mb 
 Ввод  | input.html
 Вывод  | стандартный вывод или output.png
+
 Разработчик Виктор сверстал виджет для показа информации об организации. Все было хорошо. Но потом дизайнер прислал правки: было необходимо скруглить углы виджета и сделать вариант уменьшенного виджета. Также виджет выглядел странно при добавлении более длинного текста. Нужно помочь Виктору починить макет.
 
 Желаемый результат:
 
-![](https://pandao.github.io/editor.md/examples/images/8.jpg)
+![](https://github.com/christofer1501/yandex_algorithm/blob/master/img/widget.png?raw=true)
 
 #### Примечания
 Необходимо привести внешний вид в соответствии с требованиями с наименьшим количеством изменений в текущем CSS-файле.
@@ -473,7 +474,7 @@ const entry3 = [700,612,445,343,10]; // 0
 console.log(maxProfit(entry), maxProfit(entry2), maxProfit(entry3));
 ```
 
-![](https://pandao.github.io/editor.md/examples/images/8.jpg)
+![](https://github.com/christofer1501/yandex_algorithm/blob/master/img/moneytime.jpg?raw=true)
 
 <a name="eventparser"><h3>B. Парсер событий (15 баллов) ![](https://img.shields.io/badge/%D0%A1%D1%82%D0%B0%D1%82%D1%83%D1%81-%D0%A0%D0%B5%D1%88%D0%B5%D0%BD%D0%B0%20%D1%87%D0%B0%D1%81%D1%82%D0%B8%D1%87%D0%BD%D0%BE-yellow)</h3></a>
 
@@ -582,7 +583,7 @@ const entry = [
 console.log(tasker(entry));
 ```
 
-![](https://pandao.github.io/editor.md/examples/images/8.jpg)
+![](https://github.com/christofer1501/yandex_algorithm/blob/master/img/eventparse.jpg?raw=true)
 
 <a name="catsindent"><h3>C. Идентификация котиков (40 баллов) ![](https://img.shields.io/badge/%D0%A1%D1%82%D0%B0%D1%82%D1%83%D1%81-%D0%9F%D1%80%D0%BE%D0%B9%D0%B4%D0%B5%D0%BD%D1%8B%20%D0%B2%D1%81%D0%B5%20%D1%82%D0%B5%D1%81%D1%82%D1%8B-brightgreen)</h3></a>
 
@@ -611,7 +612,8 @@ type CatInfo = {
 ```
 #### Алгоритм отрисовки баркода
 Баркоды, которые придумал Вася, выглядят так:
-![](https://pandao.github.io/editor.md/examples/images/8.jpg)
+
+![](https://github.com/christofer1501/yandex_algorithm/blob/master/img/barcode.png?raw=true)
 
 В баркоде две основные секции: контент и контрольная сумма, ограниченные прямоугольниками шириной 7 пикселей с толщиной границы 3 пикселя.
 
@@ -658,7 +660,7 @@ function renderBarcode(catInfo, element) {
 ```
 Баркод:
 
-![](https://pandao.github.io/editor.md/examples/images/8.jpg)
+![](https://github.com/christofer1501/yandex_algorithm/blob/master/img/barcode_ex1.png?raw=true)
 ```javascript
 {  
     "id": 96,  
@@ -669,7 +671,7 @@ function renderBarcode(catInfo, element) {
 ```
 Баркод:
 
-![](https://pandao.github.io/editor.md/examples/images/8.jpg)
+![](https://github.com/christofer1501/yandex_algorithm/blob/master/img/barcode_ex2.png?raw=true)
 
 #### Решение
 **Файлы:** C_catsindent.js, C_catsindent.html
@@ -746,7 +748,7 @@ function renderBarcode(catInfo, element) {
 renderBarcode(entry1, div);
 ```
 
-![](https://pandao.github.io/editor.md/examples/images/8.jpg)
+![](https://github.com/christofer1501/yandex_algorithm/blob/master/img/barcode.jpg?raw=true)
 
 <a name="lifesteel"><h3>D. Живая сталь (40 баллов) ![](https://img.shields.io/badge/%D0%A1%D1%82%D0%B0%D1%82%D1%83%D1%81-%D0%9D%D0%B5%20%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B0-red)</h3></a>
 
@@ -1392,7 +1394,8 @@ promisedApi.a.b.c()
 В команде Яндекса работает стажёр Степан. Сроки уже поджимают, а он не успевает с вёрсткой страниц. Помогите Степану сверстать одну из них по макету из этой задачи. 
 
 При вёрстке не должно быть отступов от левого и верхнего края страницы. Также нельзя использовать изображения. Вот макет: 
-![](https://pandao.github.io/editor.md/examples/images/8.jpg)
+
+![](https://github.com/christofer1501/yandex_algorithm/blob/master/img/grid.png?raw=true)
 
 Как видите, макет состоит из плиток двух размеров: стандартного и двойного. Стандартная плитка занимает 1/3 ширины экрана, двойная — 2/3. Высота плитки фиксированная - 200px. Расстояние между плитками 20 пикселей.
 
@@ -1493,7 +1496,7 @@ promisedApi.a.b.c()
     </body>
 </html>
 ```
-![](https://pandao.github.io/editor.md/examples/images/8.jpg)
+![](https://github.com/christofer1501/yandex_algorithm/blob/master/img/intern.jpg?raw=true)
 
 
 <a name="perfectrectangles"><h3>C. Идеальные прямоугольники (40 баллов) ![](https://img.shields.io/badge/%D0%A1%D1%82%D0%B0%D1%82%D1%83%D1%81-%D0%9D%D0%B5%20%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B0-red)</h3></a>
@@ -1534,7 +1537,7 @@ function traceImage(imageSrc) {
 
 Дана картинка строкой в base64 (в том виде, в котором она будет передаваться в функцию): [https://gist.github.com/senaev/50460323558db543256cb7f196e7d81d](https://gist.github.com/senaev/50460323558db543256cb7f196e7d81d)
 
-![](https://pandao.github.io/editor.md/examples/images/8.jpg)
+![](https://github.com/christofer1501/yandex_algorithm/blob/master/img/statement-image.png?raw=true)
 
 Для такой картинки можно сгенерировать строку:
 ```html
@@ -1566,7 +1569,7 @@ html-документ, при загрузке которого рисуется
 
 **Пример**
 
-![](https://pandao.github.io/editor.md/examples/images/8.jpg)
+![](https://github.com/christofer1501/yandex_algorithm/blob/master/img/chess.png?raw=true)
 
 #### Примечания
 * Реализация на CSS и HTML. Javascript использовать нельзя.
@@ -1588,7 +1591,7 @@ html-документ, при загрузке которого рисуется
 
 Когда прочитала в условии что js не нужен, решила, что задачка изи и я быстро решу ее. Ага, конечно... Как только я не пыталась ее сделать: и через ссылки с :target (но можно только одну ячейку сделать синей), и через родственные селекторы (но окрашивались только те ячейки, что идут после активной). В итоге вспомнила разбор задачи с конем на Хабре и поняла, что ячейки становятся активными в тестах не по клику на них, а с помощью создания события new Event(), и не обязательно чтобы на них можно было кликать физически. Сделала кнопку как обертку, по клику на которую показывается ее содержимое, и добавила overflow: hidden. Синие ячейки появляются как надо, но на них нельзя кликнуть тк они поверх кнопок. Вот такой получился костыль :). Очень жду разбора задач от Яндекс. Код очень длинный, поэтому можно посмотреть только в файле.
 
-![](https://pandao.github.io/editor.md/examples/images/8.jpg)
+![](https://github.com/christofer1501/yandex_algorithm/blob/master/img/horseride.jpg?raw=true)
 
 <a name="planetearth"><h3>E. Рельеф планеты Х (60 баллов) ![](https://img.shields.io/badge/%D0%A1%D1%82%D0%B0%D1%82%D1%83%D1%81-%D0%9D%D0%B5%20%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B0-red)</h3></a>
 
@@ -1603,11 +1606,11 @@ html-документ, при загрузке которого рисуется
 
 Ширина одной клетки = 10px
 
-* Солнце расположено в промежутке 100 < h < 150. Если его нет, то тема сменяется на ночную. Цвет: #ffff00
-* Звёзды расположены на высоте h ≥ 150. Видны только ночью. Цвет: #ffffff
-* Горы — положительно определённые палиндромы нечётной длины > 1 с вершиной 30 ≤ h ≤ 100 ([0,10,30,10,0]). Нужно найти и нарисовать самую большую гору по площади (остальные возвышенности не рисуем). Цвет на день / ночь: #bb3300 / #5b3500
-* Озёра — отрицательно определённые палиндромы нечётной длины > 1 с глубиной −30 ≥ h ≥ −100. ([0,–10,–30,–10,0]). Нужно найти и нарисовать самое большое озеро по площади (остальные низменности не рисуем). Цвет на день / ночь: #0f5ed6 / #036bb5
-* Алмазы расположены на глубине h < −100, должны граничить с землёй h ≥ 0). [0,–110,10]. Клетка перевёрнута на 45∘. Цвет: #ffffff
+* Солнце расположено в промежутке 100 < h < 150. Если его нет, то тема сменяется на ночную. Цвет: #ffff00 ![](https://github.com/christofer1501/yandex_algorithm/blob/master/img/sun.jpeg?raw=true)
+* Звёзды расположены на высоте h ≥ 150. Видны только ночью. Цвет: #ffffff ![](https://github.com/christofer1501/yandex_algorithm/blob/master/img/star.jpeg?raw=true)
+* Горы — положительно определённые палиндромы нечётной длины > 1 с вершиной 30 ≤ h ≤ 100 ([0,10,30,10,0]). Нужно найти и нарисовать самую большую гору по площади (остальные возвышенности не рисуем). Цвет на день / ночь: #bb3300 / #5b3500 ![](https://github.com/christofer1501/yandex_algorithm/blob/master/img/mountain_day.jpeg?raw=true)![](https://github.com/christofer1501/yandex_algorithm/blob/master/img/mountain_night.jpeg?raw=true)
+* Озёра — отрицательно определённые палиндромы нечётной длины > 1 с глубиной −30 ≥ h ≥ −100. ([0,–10,–30,–10,0]). Нужно найти и нарисовать самое большое озеро по площади (остальные низменности не рисуем). Цвет на день / ночь: #0f5ed6 / #036bb5 ![](https://github.com/christofer1501/yandex_algorithm/blob/master/img/lake_day.jpeg?raw=true)![](https://github.com/christofer1501/yandex_algorithm/blob/master/img/lake_night.jpeg?raw=true)
+* Алмазы расположены на глубине h < −100, должны граничить с землёй h ≥ 0). [0,–110,10]. Клетка перевёрнута на 45∘. Цвет: #ffffff ![](https://github.com/christofer1501/yandex_algorithm/blob/master/img/diamond.jpeg?raw=true)
 * Цвет дневного неба: #5baef7
 * Цвет звёздного неба: #120078
 * Цвет земли: #793b0f
@@ -1620,13 +1623,13 @@ html-документ, при загрузке которого рисуется
 
 [0,–10,–20,–30,–20,–10,0,10,–160,0,40,0,140,150,0,–120,0,–20,0,20,10,20,30,40,30,20,10,0] 
 
-![](https://pandao.github.io/editor.md/examples/images/8.jpg)
+![](https://github.com/christofer1501/yandex_algorithm/blob/master/img/earth_day.png?raw=true)
 
 Ночь:
 
 [0,–10,–20,–30,–20,–10,160,10,–110,0,40,0,90,0,0,150,–130,0,–20,0,20,170,10,20,30,40,30,20,10,0] 
 
-![](https://pandao.github.io/editor.md/examples/images/8.jpg)
+![](https://github.com/christofer1501/yandex_algorithm/blob/master/img/earth_night.png?raw=true)
 
 Решение представляет собой функцию, возвращющую объект со строками {script,style}, которые будут добавляться в HTML-документ с единственным элементом в теле `<div class="world»</div>`.
 
@@ -1804,6 +1807,7 @@ function pathFinder(input) {
 Ограничение памяти  | 64Mb 
 Ввод  | стандартный ввод или input.txt
 Вывод  | стандартный вывод или output.txt
+
 Вы пришли в Харбрант за волшебной книгой. Она достается только самым достойным, и вы пришли заявить на нее свое право. По пути вы наткнулись на засаду из императорских стражников. Ваш отряд сумел оторваться и пробраться на колокольню, а вы вынуждены искать выход, оказавшись в сплошном окружении. Единственный путь к отступлению — центральные ворота, которые заперты с помощью замка с шифром. Чтобы открыть его, нужно подобрать шифр из четырех числовых комбинаций.
 
 Вы теряетесь в догадках, как быстро подобрать код, но вдруг слышите звон колоколов. Это явно знак. Кажется, это азбука Морзе. Вы пытаетесь расшифровать послание, но отряд так спешит, что иногда первый и последний символы меняются местами, а иногда вся комбинация оказывается перевернутой.
@@ -1882,7 +1886,7 @@ const changeSumbolsPlace = (string) => {
 const res = decode('--... ...-- ---.. .----');
 console.log(res);
 ```
-![](https://pandao.github.io/editor.md/examples/images/8.jpg)
+![](https://github.com/christofer1501/yandex_algorithm/blob/master/img/hb_30.jpg?raw=true)
 
 
 <a name="spacecars"><h3>Космические пробки Задача 33 ![](https://img.shields.io/badge/%D0%A1%D1%82%D0%B0%D1%82%D1%83%D1%81-%D0%9D%D0%B5%20%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B0-red)</h3></a>
@@ -1893,6 +1897,7 @@ console.log(res);
 Ограничение памяти  | 64Mb 
 Ввод  | input.json
 Вывод  | output.json
+
 Альянс внутренних планет системы Бета Скорпиона уже не в состоянии решить проблему космических пробок. В межпланетном пространстве накапливаются целые очереди звездолетов, которые не могут продолжать движение из-за опасных траекторий полетов мелких космических лайнеров.
 
 Миллионы кубометров космического топлива выбрасываются в пространство, создавая вакуумный смог.
