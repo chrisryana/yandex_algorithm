@@ -583,7 +583,7 @@ const entry = [
 console.log(tasker(entry));
 ```
 
-![](https://github.com/christofer1501/yandex_algorithm/blob/master/img/eventparse.jpg?raw=true)
+![](https://github.com/christofer1501/yandex_algorithm/blob/master/img/eventparser.jpg?raw=true)
 
 <a name="catsindent"><h3>C. Идентификация котиков (40 баллов) ![](https://img.shields.io/badge/%D0%A1%D1%82%D0%B0%D1%82%D1%83%D1%81-%D0%9F%D1%80%D0%BE%D0%B9%D0%B4%D0%B5%D0%BD%D1%8B%20%D0%B2%D1%81%D0%B5%20%D1%82%D0%B5%D1%81%D1%82%D1%8B-brightgreen)</h3></a>
 
@@ -1608,8 +1608,8 @@ html-документ, при загрузке которого рисуется
 
 * Солнце расположено в промежутке 100 < h < 150. Если его нет, то тема сменяется на ночную. Цвет: #ffff00 ![](https://github.com/christofer1501/yandex_algorithm/blob/master/img/sun.jpeg?raw=true)
 * Звёзды расположены на высоте h ≥ 150. Видны только ночью. Цвет: #ffffff ![](https://github.com/christofer1501/yandex_algorithm/blob/master/img/star.jpeg?raw=true)
-* Горы — положительно определённые палиндромы нечётной длины > 1 с вершиной 30 ≤ h ≤ 100 ([0,10,30,10,0]). Нужно найти и нарисовать самую большую гору по площади (остальные возвышенности не рисуем). Цвет на день / ночь: #bb3300 / #5b3500 ![](https://github.com/christofer1501/yandex_algorithm/blob/master/img/mountain_day.jpeg?raw=true)![](https://github.com/christofer1501/yandex_algorithm/blob/master/img/mountain_night.jpeg?raw=true)
-* Озёра — отрицательно определённые палиндромы нечётной длины > 1 с глубиной −30 ≥ h ≥ −100. ([0,–10,–30,–10,0]). Нужно найти и нарисовать самое большое озеро по площади (остальные низменности не рисуем). Цвет на день / ночь: #0f5ed6 / #036bb5 ![](https://github.com/christofer1501/yandex_algorithm/blob/master/img/lake_day.jpeg?raw=true)![](https://github.com/christofer1501/yandex_algorithm/blob/master/img/lake_night.jpeg?raw=true)
+* Горы — положительно определённые палиндромы нечётной длины > 1 с вершиной 30 ≤ h ≤ 100 ([0,10,30,10,0]). Нужно найти и нарисовать самую большую гору по площади (остальные возвышенности не рисуем). Цвет на день / ночь: #bb3300 / #5b3500 ![](https://github.com/christofer1501/yandex_algorithm/blob/master/img/mountain_day.jpeg?raw=true) ![](https://github.com/christofer1501/yandex_algorithm/blob/master/img/mountain_night.jpeg?raw=true)
+* Озёра — отрицательно определённые палиндромы нечётной длины > 1 с глубиной −30 ≥ h ≥ −100. ([0,–10,–30,–10,0]). Нужно найти и нарисовать самое большое озеро по площади (остальные низменности не рисуем). Цвет на день / ночь: #0f5ed6 / #036bb5 ![](https://github.com/christofer1501/yandex_algorithm/blob/master/img/lake_day.jpeg?raw=true) ![](https://github.com/christofer1501/yandex_algorithm/blob/master/img/lake_night.jpeg?raw=true)
 * Алмазы расположены на глубине h < −100, должны граничить с землёй h ≥ 0). [0,–110,10]. Клетка перевёрнута на 45∘. Цвет: #ffffff ![](https://github.com/christofer1501/yandex_algorithm/blob/master/img/diamond.jpeg?raw=true)
 * Цвет дневного неба: #5baef7
 * Цвет звёздного неба: #120078
